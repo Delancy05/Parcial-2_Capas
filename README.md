@@ -1,9 +1,13 @@
 # Parcial Práctico: Laboratorio de MVP (Login + MDI + Juego de Craps)
 
 **Universidad Tecnológica de Panamá**
+
 Facultad de Ingeniería en Sistemas · Campus Víctor Levis Sasso
+
 **Materia:** Herramientas de la Programación Aplicada III (.NET)
+
 **Grupo:** 1IL133 · **Semestre:** II Semestre 2026
+
 **Instructora:** Ing. Irina Fong
 
 ---
