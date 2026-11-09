@@ -38,8 +38,10 @@ namespace Parcial_2_Capas
 
         public void AbrirPrincipal(string correoUsuario)
         {
-            // Lo conectamos en el siguiente paso, cuando creemos el formulario MDI.
-            MessageBox.Show("Bienvenido: " + correoUsuario);
+            var principal = new FrmPrincipal(correoUsuario);
+            principal.FormClosed += (s, e) => Close();
+            Hide();
+            principal.Show();
         }
     }
 }
