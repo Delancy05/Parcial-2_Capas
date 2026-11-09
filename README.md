@@ -39,11 +39,9 @@ Aplicación de escritorio en **Windows Forms (.NET Framework)** desarrollada con
 
 ### MDI (menú lateral, hora y usuario en sesión)
 
-<img width="1917" height="1078" alt="Captura de pantalla 2026-11-08 232601" src="https://github.com/user-attachments/assets/204ae6e8-c2c3-479b-9fda-f1402537b351" />
+<img width="1917" height="1078" alt="Captura de pantalla 2026-11-09 101141" src="https://github.com/user-attachments/assets/d15c1ed1-d283-4471-90d9-7732823a283c" />
 
-### Juego de Craps
-
-<img width="1130" height="1073" alt="Captura de pantalla 2026-11-08 232833" src="https://github.com/user-attachments/assets/4bf82d5a-e7cf-41e4-a5e5-a6f9a04c1943" />
+<img width="1917" height="1077" alt="Captura de pantalla 2026-11-09 101658" src="https://github.com/user-attachments/assets/351d878b-7cfc-41c6-9304-784727c300ed" />
 
 ### Validaciones
 
