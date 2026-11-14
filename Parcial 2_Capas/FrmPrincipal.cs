@@ -32,8 +32,11 @@ namespace Parcial_2_Capas
             var btnSalir = CrearBoton("Salir");
             btnSalir.Click += (s, e) => Application.Exit();
 
-            var btnCraps = CrearBoton("Juego de Craps");
-            btnCraps.Click += (s, e) => AbrirHijo(new FrmCraps());
+            var btnCerrarSesion = CrearBoton("Cerrar sesión");
+            btnCerrarSesion.Click += (s, e) => Application.Restart();
+
+            var btnRegistrar = CrearBoton("Registrar usuario");
+            btnRegistrar.Click += (s, e) => AbrirHijo(new FrmRegistro());
 
             // Usuario en sesión, parte inferior del menú
             var lblUsuario = new Label
@@ -57,7 +60,8 @@ namespace Parcial_2_Capas
             };
 
             panel.Controls.Add(btnSalir);
-            panel.Controls.Add(btnCraps);
+            panel.Controls.Add(btnCerrarSesion);
+            panel.Controls.Add(btnRegistrar);
             panel.Controls.Add(lblHora);
             panel.Controls.Add(lblUsuario);
             Controls.Add(panel);

@@ -8,7 +8,7 @@ namespace Datos
     public static class ConexionBD
     {
         private const string Cadena =
-            "Server=localhost;Port=3306;Database=craps_db;Uid=app_craps;Pwd=Clave123!;";
+            "Server=localhost;Port=3306;Database=mvp_db;Uid=app_craps;Pwd=Clave123!;";
 
         public static MySqlConnection Crear()
         {

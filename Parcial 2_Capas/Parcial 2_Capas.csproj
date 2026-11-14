@@ -46,13 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CrapsPresenter.cs" />
-    <Compile Include="FrmCraps.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmCraps.Designer.cs">
-      <DependentUpon>FrmCraps.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,14 +58,15 @@
     <Compile Include="FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="ICrapsView.cs" />
+    <Compile Include="FrmRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ILoginView.cs" />
+    <Compile Include="IRegistroView.cs" />
     <Compile Include="LoginPresenter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmCraps.resx">
-      <DependentUpon>FrmCraps.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="RegistroPresenter.cs" />
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
