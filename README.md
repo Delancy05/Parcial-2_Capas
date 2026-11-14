@@ -1,4 +1,4 @@
-# Parcial Práctico: Laboratorio de MVP (Login + MDI + Juego de Craps)
+# Parcial Práctico: Laboratorio de MVP
 
 **Universidad Tecnológica de Panamá**
 
@@ -30,7 +30,6 @@ Aplicación de escritorio en **Windows Forms (.NET Framework)** desarrollada con
 - Registro e inicio de sesión de usuarios con **contraseñas protegidas con hash (BCrypt)**.
 - Conexión a **MySQL** con un usuario de **privilegios mínimos**.
 - Formulario principal **MDI** con **menú lateral izquierdo**, **hora actual** y **usuario en sesión** en la parte inferior.
-- **Juego de Craps** como formulario hijo, también implementado en MVP.
 - **Validaciones** de entrada en el login.
 
 ---
@@ -104,11 +103,10 @@ La aplicación **no usa `root`**. Se conecta con el usuario `app_craps`, que sol
 |---|---|
 | `Form` (con `IsMdiContainer = true`) | Contenedor MDI (`FrmPrincipal`) |
 | `Panel` (`Dock = Left`) | Menú lateral |
-| `Button` | Iniciar sesión, Registrar, Juego de Craps, Salir, Lanzar dados, Reiniciar |
-| `Label` | Hora actual, usuario en sesión, dados, punto y resultado |
+| `Button` | Iniciar sesión, Registrar |
+| `Label` | Hora actual, usuario en sesión |
 | `Timer` | Actualiza la hora cada segundo |
 | `TextBox` (`PasswordChar = '*'`) | Correo y contraseña |
-| `ListBox` | Historial de lanzamientos del Craps |
 | `MessageBox` | Mensajes de validación y avisos |
 
 ---
@@ -153,12 +151,7 @@ La aplicación **no usa `root`**. Se conecta con el usuario `app_craps`, que sol
 
 1. En el login, ingresar un correo y una contraseña (mínimo 6 caracteres) y presionar **Registrar**.
 2. Presionar **Iniciar sesión**.
-3. En el menú lateral, abrir **Juego de Craps** y presionar **Lanzar dados**.
 
-### Reglas del Craps
-
-- Primer lanzamiento: suma **7 u 11** gana; suma **2, 3 o 12** pierde.
-- Cualquier otra suma se convierte en el **punto**: se sigue lanzando hasta sacar el punto (gana) o un 7 (pierde).
 
 ---
 
